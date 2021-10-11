@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <button type="button" onclick="showMessage();">Xuât Bằng alert</button>
+        <script>
+            function showMessage(){
+                alert('Xin chào');
+            }
+        </script>
+        <div id="messageDiv"></div>
+        <button type="button" onclick="showMessage1();">Xuất Bằng innerHTML</button>
+        <script>
+            function showMessage1(){
+                document.getElementById('messageDiv').innerHTML='Xin Chào!';
+            }
+        </script><br>
+        <button type="button" onclick="showMessage2();">Xuất Bằng document.write</button>
+        <script>
+            function showMessage2(){
+                document.write('Xin Chào!');
+            }
+        </script>
+        <div id="messageDiv1"></div>
+        <button type="button" onmouseover="showMessage4()"; onclick="showMessage3();">Xuất Bằng console.log</button>
+        <script>
+            function showMwssage3(){
+                console.log('Xin Chào!')
+            }
+            function showMessage4(){
+                document.getElementById('messageDiv1').innerHTML='Mở console.log bằng cách ấn F12';
+            }
+
+        </script>
+</body>
+</html>

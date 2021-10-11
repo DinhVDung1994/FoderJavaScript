@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BTNhungJS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633933003019</updated>
-      <workItem from="1633933004373" duration="5602000" />
+      <workItem from="1633933004373" duration="10323000" />
     </task>
     <servers />
   </component>

@@ -14,17 +14,28 @@
         function namNhuan() {
             let year = parseInt(document.getElementById("nhapNam").value)
 
-            if (year % 4 == 0) {
-                if (year % 100 == 0) {
-                    if (year % 400 == 0) {
+            if (year % 4 == 0)
+            {
+                if (year % 100 == 0)
+                {
+                    if (year % 400 == 0)
+                    {
                         alert('Năm ' + year + " là năm nhuận");
-                    } else
+                    }
+                    else
+                    {
                         alert('Năm ' + year + " không phải là năm nhuận");
-                } else
+                    }
+                }
+                else
+                {
                     alert('Năm ' + year + " là năm nhuận");
-            } else
+                }
+            }
+            else
+            {
                 alert('Năm ' + year + " không phải là năm nhuận");
-
+            }
         }
     </script>
 </form>

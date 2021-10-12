@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>Amount</td>
+        <td>From Currency</td>
+        <td>To Currency</td>
+        <td><h3 id="xuatTien"></h3></td>
+    </tr>
+    <tr>
+        <td><input type="text" id="txtTiennhap"></td>
+        <td>
+
+                <select id="tienCanchuyen">
+                    <option value="USD">USD</option>
+                    <option value="VND">Việt Nam Đồng</option>
+                </select>
+
+        </td>
+        <td>
+
+                <select id="tienChuyenra">
+                    <option value="VND">Việt Nam Đồng</option>
+                    <option value="USD">USD</option>
+                </select>
+
+        </td>
+        <td><button onclick="doitien()">Convert</button></td>
+    </tr>
+</table>
+
+<script>
+    function doitien() {
+        let tienNhap = parseInt(document.getElementById("txtTiennhap").value)
+        let a =document.getElementById("tienCanchuyen").value
+        let b = document.getElementById("tienChuyenra").value
+
+        if (a===b)
+        {
+            document.getElementById("xuatTien").innerHTML= tienNhap
+        }else if(a==="USD" && b==="VND")
+        {
+            document.getElementById("xuatTien").innerHTML=tienNhap*23000
+        } else if (a==="VND" && b==="USD")
+        {
+            document.getElementById("xuatTien").innerHTML=tienNhap/23000
+        }
+
+    }
+</script>
+
+</body>
+</html>

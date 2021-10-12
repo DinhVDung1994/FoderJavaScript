@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = prompt(' nhap n')
+    //alert(parseInt(n))
+    //alert(isNaN(parseInt(n)));
+    let b = isNaN(parseInt(n))
+    let c = "hello";
+    if (b == true) {
+        if (n == c) {
+            document.write('Giá trị vừa nhập là :String và là cụm từ hello')
+        } else {
+            document.write('Giá trị vừa nhập là :String')
+        }
+    } else if (n % 5 == 0 && n % 9 == 0) {
+        document.write('Giá Trị vừa nhập là :number và chia hết cho 5 và 9')
+    } else {
+        document.write('Giá Trị vừa nhập là :number và không chia hết cho 5 và 9')
+    }
+</script>
+
+</body>
+</html>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4baitapbien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap1210.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zLguF8AYGkuBeGXa8r77AlKZqM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +51,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633933003019</updated>
-      <workItem from="1633933004373" duration="10323000" />
+      <workItem from="1633933004373" duration="12062000" />
+      <workItem from="1634001984550" duration="8741000" />
+      <workItem from="1634020268597" duration="1972000" />
     </task>
     <servers />
   </component>
@@ -59,5 +70,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

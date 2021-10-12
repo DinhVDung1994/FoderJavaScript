@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //BÀI 1
+    let vatLy = parseInt(prompt('Nhập Điểm Môn Lý'));
+    let hoa = parseInt(prompt('Nhập Điểm Môn Hóa'));
+    let sinhhoc = parseInt(prompt('Nhập Điểm Môn Sinh'));
+    let tong = vatLy+hoa+sinhhoc
+    let tbCong = tong/3
+
+    document.write('Điểm Lý: '+vatLy)
+    document.write('<br>')
+    document.write('Điểm Hóa: '+hoa)
+    document.write('<br>')
+    document.write('Điểm Sinh: '+sinhhoc)
+    document.write('<br>')
+    document.write('Tổng Điểm 3 môn ='+tong)
+    document.write('<br>')
+    document.write('Điểm Trung Bình 3 môn ='+tbCong)
+
+
+    document.write('<br>')
+    document.write('<br>')
+    document.write('<br>')
+    //BÀI 2
+     let N = prompt('Chương Trình chuyển đổi nhiệt độ từ oC sang oF Mời bạn nhập ')
+     let a = 32+((N*9/5))
+     document.write('=====CHUYỂN ĐỔI NHIỆT ĐỘ=====')
+     document.write('<br>')
+     document.write('nhiệt độ sau khi chuyển đổi là:'+a+'oF')
+
+
+    document.write('<br>')
+    document.write('<br>')
+    document.write('<br>')
+    //BÀI 3+4
+    document.write('=====CHU VI VÀ DIỆN TÍCH HÌNH TRÒN=====')
+    let banKinh = prompt('Nhập vào bán kính đường tròn')
+    let S = (banKinh*banKinh)*3.14
+    let C =banKinh*2*3.14
+    document.write('<br>')
+    document.write('diện tích hình tròn có bán kính '+banKinh+' là:')
+    document.write(S);
+    document.write('<br>')
+    document.write('Chu vi hình tròn có bán kính '+banKinh+' là:')
+    document.write(C);
+
+
+</script>
+</body>
+</html>

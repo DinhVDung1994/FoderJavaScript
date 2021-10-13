@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-    <img src="meo1.jpg" id="imgMeo" height="200" width="200">
-
+<body onload="docReady()">
+<form>
+    <img src="meo1.jpg" style="position:absolute;left:0;top:0;" id="imgMeo" height="200" width="200"/>
+</form>
 <script>
-    var element = null;
-        element = document.getElementById('imgMeo');
     function upArr() {
+        let element = document.getElementById('imgMeo');
         element.style.top = parseInt(element.style.top) - 5 + 'px';
+
     }
 
     function dowArr() {
+        let element = document.getElementById('imgMeo');
         element.style.top = parseInt(element.style.top) + 5 + 'px';
     }
 
     function leftArr() {
+        let element = document.getElementById('imgMeo');
         element.style.left = parseInt(element.style.left) - 5 + 'px';
     }
 
     function rightArr() {
+        let element = document.getElementById('imgMeo');
         element.style.left = parseInt(element.style.left) + 5 + 'px';
     }
 

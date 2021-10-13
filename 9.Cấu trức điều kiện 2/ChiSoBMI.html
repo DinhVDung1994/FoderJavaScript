@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let aWeight=parseFloat(prompt('Nhập Cân Nặng'))
+    let bheight=parseFloat(prompt('Nhập Chiều Cao'))
+
+    let bmi= aWeight/(bheight*bheight)
+
+
+    if(bmi<18)
+    {
+        document.write('Chỉ số của Bạn ở mức : Underweight');
+    }
+    else if (bmi<25){
+        document.write('Chỉ số của Bạn ở mức : Normal');
+    }else if (bmi<30){
+        document.write('Chỉ số của Bạn ở mức : Overweight');
+    }else
+    {
+        document.write('Chỉ số của Bạn ở mức : Obese');
+    }
+
+
+</script>
+</body>
+</html>

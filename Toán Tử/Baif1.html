@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập số a: <input type="text" id="txtSoa"><br>
+<br>
+Nhập số b: <input type="text" id="txtSob"><br>
+<br>
+<button type="button" id="btTinh" onclick="TinhKQ()">Tính</button>
+<script>
+    function TinhKQ() {
+        let a = parseInt(document.getElementById("txtSoa").value)
+        let b = parseInt(document.getElementById("txtSob").value)
+
+
+        if ((a + b) < 4) {
+            alert('Below');
+        } else {
+            alert('Over');
+        }
+    }
+
+</script>
+</body>
+</html>

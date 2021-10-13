@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img src="meo1.jpg" id="imgMeo" height="200" width="200">
+
+<script>
+    var element = null;
+        element = document.getElementById('imgMeo');
+    function upArr() {
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+    }
+
+    function dowArr() {
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+    }
+
+    function leftArr() {
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+    }
+
+    function rightArr() {
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+    }
+
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 37:
+                leftArr();
+                break;
+            case 39:
+                rightArr();
+                break;
+            case 38:
+                upArr();
+                break;
+            case 40:
+                dowArr();
+                break;
+        }
+    }
+
+    function docReady() {
+        window.addEventListener('keydown', moveSelection);
+    }
+</script>
+</body>
+</html>

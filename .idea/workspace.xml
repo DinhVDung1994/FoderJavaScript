@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/EvenMouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/EvenKey.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4baitapbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/4baitapbien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTNhungJS.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/BTNhungJS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap1210.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/BaiTap1210.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/Bien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DangNhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/DangNhap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShinhCN.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/ShinhCN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thuchanhjava.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/Thuchanhjava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán Tử/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/Toán Tử/Bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán Tử/Baif1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/Toán Tử/Baif1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyendoitien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/chuyendoitien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/sign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudungtoantu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/sudungtoantu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudungtoantu1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/sudungtoantu1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ungdungmaytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/ungdungmaytinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tuần 1 đến phần 9/xuat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +65,8 @@
       <workItem from="1634020268597" duration="11207000" />
       <workItem from="1634049139630" duration="5300000" />
       <workItem from="1634087329641" duration="13509000" />
+      <workItem from="1634111156432" duration="1272000" />
+      <workItem from="1634112768825" duration="6954000" />
     </task>
     <servers />
   </component>

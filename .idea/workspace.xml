@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/MayTinhsimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/Doyoulop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/CLSwitchCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/CLSwitchCase.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,8 @@
       <workItem from="1634087329641" duration="13509000" />
       <workItem from="1634111156432" duration="1272000" />
       <workItem from="1634112768825" duration="8080000" />
-      <workItem from="1634131657588" duration="7523000" />
+      <workItem from="1634131657588" duration="9223000" />
+      <workItem from="1634173829903" duration="2785000" />
     </task>
     <servers />
   </component>

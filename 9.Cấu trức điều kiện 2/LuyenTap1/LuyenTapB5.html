@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="BT5.css">
+</head>
+<body>
+<form>
+    Nhập Điểm Bài Kiểm Tra:<input type="text" id="txtDiemkt"><br>
+    <br>
+    Nhập Điểm Thi Giữa Kỳ: <input type="text" id="txtDiemgiuaky"><br>
+    <br>
+    Nhập Điểm Thi Cuối Kỳ:<input type="text" id="txtDiemcuoiky"><br>
+    <br>
+    <button type="button" id="btSetHL" onclick="KiemTraHL()">Xét Học Lực</button>
+    <script>
+        function KiemTraHL() {
+            let a = parseInt(document.getElementById('txtDiemkt').value);
+            let b = parseInt(document.getElementById('txtDiemgiuaky').value);
+            let c = parseInt(document.getElementById('txtDiemcuoiky').value);
+
+            let tongTB = (a + b + c) / 3;
+
+            if (tongTB < 5) {
+                alert('Bạn Đạt ' + tongTB + 'Điểm.Xếp Loại Yếu');
+            } else if (tongTB <= 7) {
+                alert('Bạn Đạt ' + tongTB + 'Điểm.Xếp Loại Trung Bình');
+            } else if (tongTB < 9) {
+                alert('Bạn Đạt ' + tongTB + 'Điểm.Xếp Loại Khá');
+            } else if (tongTB >= 9) {
+                alert('Bạn Đạt ' + tongTB + 'Điểm.Xếp Loại Giỏi');
+            }else {
+                alert('Bạn Chưa Nhập Điểm')
+            }
+        }
+    </script>
+
+
+</form>
+</body>
+</html>

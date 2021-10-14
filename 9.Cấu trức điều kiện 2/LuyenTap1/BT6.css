@@ -1,0 +1,10 @@
+form {
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+table,td,tr{
+
+    border-collapse: collapse;
+    border:1px solid black;
+}

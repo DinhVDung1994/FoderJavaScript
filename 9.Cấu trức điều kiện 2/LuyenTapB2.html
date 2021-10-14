@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Nhập Tuổi:<input type="text" id="txtTuoi"><br>
+    <button type="button" id="btKQ" onclick="ktTuoi()">Kết Quả</button>
+</form>
+<script>
+    function ktTuoi(){
+        let a=parseInt(document.getElementById('txtTuoi').value);
+
+        if (a<16)
+            alert('Tuổi của bạn là '+a+' Bạn không đủ điều kiện học lớp 10');
+        else
+            alert('Bạn đủ điều kiện vào lớp 10');
+    }
+
+</script>
+</body>
+</html>

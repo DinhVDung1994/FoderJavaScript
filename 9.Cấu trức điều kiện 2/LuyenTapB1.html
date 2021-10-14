@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập Số A: <input type="text" id="txtSoa"><br>
+Nhập Số B: <input type="text" id="txtSob">
+<br>
+<button type="button" id="btKiemtra" onclick="KiemTra()">Kiểm Tra</button>
+<script>
+    function KiemTra(){
+        let x=parseFloat(document.getElementById('txtSoa').value);
+        let y=parseFloat(document.getElementById('txtSob').value);
+
+        if(x%y==0)
+        {
+            alert(x+' chia hết cho '+y);
+        }else {
+            alert(x+' không chia hết cho '+y);
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 1/UseForLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.Cấu trức điều kiện 2/LuyenTap2/Bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LT100.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestminiTuan2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -73,7 +81,9 @@
       <workItem from="1634173829903" duration="5013000" />
       <workItem from="1634193329520" duration="10641000" />
       <workItem from="1634222278907" duration="1225000" />
-      <workItem from="1634262064898" duration="16000" />
+      <workItem from="1634262064898" duration="2266000" />
+      <workItem from="1634264820788" duration="2923000" />
+      <workItem from="1634278338076" duration="5647000" />
     </task>
     <servers />
   </component>

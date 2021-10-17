@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Nhập Chỉ Số Nhiệt Đô: <input type="text" id="txtNhiet">
+    <select id="selTdau">
+        <option>Độ Tộc</option>
+        <option>Độ C</option>
+        <option>Độ F</option>
+    </select>
+    <select id="selTsau">
+        <option>Độ Tàu</option>
+        <option>Độ F</option>
+        <option>Độ C</option>
+    </select>
+    <button type="button" id="btChange" onclick="chuyenDoi()">Chuyển Đổi</button>
+    <br>
+    <p id="KQ"><h3></h3></p>
+
+</form>
+<script>
+    function chuyenDoi() {
+        let a = parseFloat(document.getElementById("txtNhiet").value)
+        let nhapT = document.getElementById("selTdau").value
+        let xuatT = document.getElementById("selTsau").value
+
+        //let a=prompt('Nhap')
+        let DoF = ((a * 9) / 2) + 32;
+        let DoC = ((a - 32) * 5) / 9;
+
+        if (nhapT === xuatT) {
+            alert('Bạn Chưa Chọn Đầu ra');
+        } else if (nhapT === "Độ C" && xuatT === "Độ F") {
+            document.getElementById("KQ").innerHTML = DoF;
+        } else if (nhapT === "Độ F" && xuatT === "Độ C") {
+            document.getElementById("KQ").innerHTML = DoC;
+        }else{
+            alert('Chào Mừng Đến Với Bộ Tộc Độ Điên')
+        }
+
+        //alert('Độ C '+DoC)
+        //alert('Độ F '+DoF)
+
+        //  if (nhapT==='Độ C' && xuatT==='Độ F'){
+        //     alert(DoF);
+        // }else if (nhapT==='Độ F' && xuatT==='Độ C'){
+        //      alert(DoC);
+        // }else {
+        //     alert('Độ Tộc Trưởng Không Tính Được')
+        // }
+    }
+
+
+</script>
+</body>
+</html>

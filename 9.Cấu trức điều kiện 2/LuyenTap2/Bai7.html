@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt('Nhập a'))
+    let b=parseInt(prompt('Nhập b'))
+    let c=parseInt(prompt('Nhập c'))
+    let Delta= b*b-4*a*c;
+
+    if (a==0){
+        if (b==0){
+            alert('PT vô nghiệm');
+        }else {
+            alert('PT có 1 nghiệm là :'+-c/b);
+        }
+    }else if (Delta>0){
+        alert('Pt có 2 nghiệm X1=:'+-b+Math.sqrt(Delta)/2*a);
+        alert('Pt có 2 nghiệm X2=:'+-b-Math.sqrt(Delta)/2*a)
+    }else if (Delta<0){
+        alert('Pt vô nghiệm');
+    }else {
+        alert('Pt có nghiệm kép là : '+-b/2*a);
+    }
+
+
+</script>
+</body>
+</html>

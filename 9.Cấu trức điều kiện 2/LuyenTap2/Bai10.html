@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<label>Nhập số điện tiêu dùng hàng tháng:<input type="text" id="txtSodien"></label>
+<button type="button" id="btTinh" onclick="tinhTiendien()">Click Me</button>
+<br>
+<br>
+<p id="xuatKQ"><h1></h1></p>
+<script>
+    const muc1 = 50 * 1484;
+    const muc2 = 50 * 1533;
+    const muc3 = 50 * 1786;
+    const muc4 = 50 * 2242;
+    const muc5 = 50 * 2503;
+
+    function tinhTiendien() {
+        let chiSodien = parseInt(document.getElementById('txtSodien').value)
+
+
+
+    if (chiSodien <= 50) {
+        document.getElementById('xuatKQ').innerHTML = chiSodien * 1484;
+    } else if (chiSodien <= 100) {
+        document.getElementById('xuatKQ').innerHTML = muc1 + ((chiSodien - 50) * 1533);
+    } else if (chiSodien <= 200) {
+        document.getElementById('xuatKQ').innerHTML = muc1 + muc2 + ((chiSodien - 100) * 1786);
+    } else if (chiSodien <= 300) {
+        document.getElementById('xuatKQ').innerHTML = muc1 + muc2 + muc3 + ((chiSodien - 200) * 2242);
+    } else if (chiSodien <= 400) {
+        document.getElementById('xuatKQ').innerHTML = muc1 + muc2 + muc3 + muc4 + ((chiSodien - 300) * 2503);
+    } else if (chiSodien > 400) {
+        document.getElementById('xuatKQ').innerHTML = muc1 + muc2 + muc3 + muc4 + muc5 + ((chiSodien - 400) * 2587);
+    } else{
+        document.getElementById('xuatKQ').innerHTML = 'Bạn Chưa Nhập Chỉ Số Điện'
+    }
+    }
+</script>
+</body>
+</html>

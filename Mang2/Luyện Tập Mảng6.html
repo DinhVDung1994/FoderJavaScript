@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = new Array(3);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = prompt('Nhập giá trị của mảng:');
+    }
+    console.log(arr);
+
+    let numbers = prompt('Nhập Giá trị muốn tìm trong mảng:');
+    let check=0;
+    for (let i = 0; i < arr.length; i++) {
+        if (numbers === arr[i]) {
+            document.write('Giá trị ' + numbers + ' xuất hiện trong mảng');
+            check++;
+            break;
+        }
+    }
+    if (check===0){
+        document.write('Giá trị ' + numbers + ' không xuất hiện trong mảng');
+    }
+
+
+</script>
+</body>
+</html>

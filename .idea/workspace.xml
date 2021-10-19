@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mang1/CoCaro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tạp Mảng5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/USE Hàm Có Sẵn 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/USE Hàm Có Sẵn 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/USE Hàm Có Sẵn 3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +42,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1zLguF8AYGkuBeGXa8r77AlKZqM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,7 +93,12 @@
       <workItem from="1634487210863" duration="1996000" />
       <workItem from="1634531940274" duration="6995000" />
       <workItem from="1634548514081" duration="32000" />
-      <workItem from="1634549191626" duration="1437000" />
+      <workItem from="1634549191626" duration="2092000" />
+      <workItem from="1634566483384" duration="8496000" />
+      <workItem from="1634606438202" duration="4063000" />
+      <workItem from="1634611634188" duration="3316000" />
+      <workItem from="1634617100083" duration="15594000" />
+      <workItem from="1634653202205" duration="1898000" />
     </task>
     <servers />
   </component>

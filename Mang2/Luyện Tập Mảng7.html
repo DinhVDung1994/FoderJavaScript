@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr=new Array(7);
+  for (let i=0;i<arr.length;i++){
+      arr[i]=prompt('Nhập Các Phần Tử Của Mảng');
+  }
+  document.write('Mảng Ban Đầu :'+arr+'<br>')
+  let numbers=prompt('Nhập Giá Trị Cần Xóa');
+  document.write('Giá Trị Muốn Xóa: '+numbers+'<br>')
+  let check=0;
+  let index = 0;
+    for (let i=0;i<arr.length;i++){
+        if (numbers===arr[i]){
+            check++;
+            index = i;
+          break;
+        }
+    }if (check >0) {
+      arr.splice(index,3);
+      document.write('Mảng Sau Khi Xóa: '+arr);
+  }else {
+      document.write('Phần Tử '+numbers+' Bạn Muốn Xóa Không Có Trong Mảng');
+  }
+</script>
+</body>
+</html>

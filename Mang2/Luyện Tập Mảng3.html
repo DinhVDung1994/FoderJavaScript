@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [10, 0, 25, 14, 1, 2, 8, 9, 48, 50, 78, 11];
+    let tongPT = 0;
+    let tbCong = 0;
+    let max = 0;
+    max = arr[0];
+
+    for (let i = 0; i < arr.length; i++) {
+        tongPT += arr[i];
+        tbCong = tongPT / arr.length;
+        if (max <= arr[i]) {
+            max = arr[i];
+        }
+    }
+    document.write('Giá Trị Lớn Nhất Mảng Là : ' + max + '<br>')
+    document.write('Trung Bình Cộng của các giá trị là: ' + tbCong);
+
+
+</script>
+
+</body>
+</html>

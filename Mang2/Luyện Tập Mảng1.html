@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[1,10,15,4,18,9,25,86,7,95,31,13,5,2];
+    let arr1=[];
+    let dem=0;
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i]>=10){
+            dem++;
+            arr1.push(arr[i]);
+        }
+    }
+    document.write('Có '+dem+' Phần tử lớn hơn 10 và ');
+    document.write('Các phần tử lớn hơn 10 là :'+arr1);
+
+</script>
+
+</body>
+</html>

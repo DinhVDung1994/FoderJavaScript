@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrA=new Array(10)
+    for (let i=0;i<arrA.length;i++){
+        arrA[i]=prompt('Nhập Các Phần Tử Của Mảng A')
+    }
+    document.write('Mảng A : '+arrA+'<br>');
+
+    let arrB=new Array(10)
+    for (let i=0;i<arrB.length;i++){
+        arrB[i]=prompt('Nhập Các Phần Tử Mảng B')
+    }
+    document.write('MẢng B: '+arrB+'<br>');
+
+    let arrC=new Array(20);
+    arrC=arrA.concat(arrB);
+    document.write('Mảng C là : '+arrC);
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=new Array(5);
+    for (let i=0;i<arr.length;i++){
+        arr[i]=prompt('Nhập Giá Trị Các Phần Tử');
+    }
+    document.write('Mảng Ban Đầu là: '+arr+'<br>');
+
+    for (let i=0;i<arr.length;i++){
+       arr.sort(function (a,b){return b-a});
+    }
+    document.write('Mảng sau khi sắp xếp '+arr)
+
+
+</script>
+</body>
+</html>

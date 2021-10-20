@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let string1=prompt('Nhập Chuỗi 1')
+  let arr=string1.split('');
+  let string2=prompt('Nhập Chuỗi 2')
+  let arr1=string2.split('');
+
+  if (arr.length!==arr1.length){
+    document.write('Hai Mảng Không Giống Nhau');
+  }else {
+    for (let i=0;i<arr.length;i++){
+      if (arr[i]!==arr1[i]){
+        document.write('Hai Mảng Không Giống Nhau');
+        break;
+      }else {
+        document.write('Hai Mảng Giống Nhau');
+        break;
+      }
+    }
+  }
+</script>
+
+</body>
+</html>

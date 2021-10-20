@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let strings=prompt('Nhap chuoi');
+    let arr=strings.split('');
+
+    document.write('Chuoi Ban Dau: '+strings+'<br>');
+    document.write('Mang Sau Khi Nhan Gia Tri Cua Chuoi: '+arr+'<br>');
+    let dem=0;
+    for (let i=0;i<arr.length;i++){
+        if (arr[i]>='a'&&arr[i]<='z'||arr[i]>='A'&&arr[i]<='Z'){
+            dem++;
+        }
+    }document.write('Chuoi "'+strings+'" Co '+dem+' Ky Tu Chu Cai Xuat Hien');
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

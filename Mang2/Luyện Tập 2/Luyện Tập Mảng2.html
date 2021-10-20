@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=new Array(6)
+    for (let i=0;i<arr.length;i++){
+        arr[i]=prompt('Nhập Giá Trị Các Phần Tử Trong Mảng');
+    }
+    document.write('Mảng Ban Đầu :'+arr+'<br>');
+    let temp=0;
+    for (let j = 0; j < arr.length/2; j++) {
+        let temp = arr[j]
+        arr[j] = arr[arr.length - (j+1)]
+        arr[arr.length- (j+1)] = temp
+    }
+    document.write('Mảng Sau Khi Đảo: '+arr);
+
+
+
+    // for (let i=0;i<arr.length;i++){
+    //     arr.reverse();
+    // }
+    // document.write('Mảng Sau Khi Đảo: '+arr);
+
+
+
+</script>
+</body>
+</html>

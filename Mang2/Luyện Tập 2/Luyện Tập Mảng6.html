@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let string1=prompt('Nhập Chuỗi 1')
+  let arr=string1.split('');
+
+  document.write('Chuỗi Ban Đầu :'+string1+'<br>');
+  for (let i=0;i<arr.length;i++){
+    if (arr[i]==='-'){
+      arr[i]='_';
+    }
+  }document.write('Chuỗi Sau Khi Đổi: '+arr.join('')+'<br>');
+
+</script>
+
+</body>
+</html>

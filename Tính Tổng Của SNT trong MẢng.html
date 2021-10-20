@@ -9,8 +9,9 @@
 <script>
     let arr=[1,7,2,5,11,12,29,18,33];
     let sum=0;
-    let dem=0;
+
     for (let i=0;i<arr.length;i++){
+        let dem=0;
         for (let j=1;j<=arr[i];j++){
             if (arr[i]>1){
                 if (arr[i]%j===0){
@@ -18,9 +19,10 @@
                 }
             }
         }if (dem===2){
+            document.write(arr[i] + '<br>');
             sum=sum+arr[i];
         }
-    }document.write(sum);
+    }document.write('Tong: '+ sum);
 
 
 

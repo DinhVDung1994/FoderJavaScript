@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 2/Luyen Yap Mang5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 2/Luyện Tập Mang1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 2/Luyện Tập Mảng2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 2/Luyện Tập Mảng3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 2/Luyện Tập Mảng4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 2/Luyện Tập Mảng6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tính Tổng Của SNT trong MẢng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LT199.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tạp Mảng5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tạp Mảng5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mang2/Luyện Tập Mảng9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mang2/Luyện Tập 1/Luyện Tập Mảng9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cấu Trúc Lặp 2/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/BangCuuChuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LT100.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tính Tổng Của SNT trong MẢng.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tính Tổng Của SNT trong MẢng.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +94,8 @@
       <workItem from="1634653202205" duration="7825000" />
       <workItem from="1634662858742" duration="2228000" />
       <workItem from="1634665574395" duration="27000" />
-      <workItem from="1634692536658" duration="8964000" />
+      <workItem from="1634692536658" duration="9324000" />
+      <workItem from="1634712617374" duration="6303000" />
     </task>
     <servers />
   </component>

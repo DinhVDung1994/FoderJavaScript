@@ -7,11 +7,15 @@
 <body>
 
 <script>
+    let sout = "<table border='1' width='100%'  >"
     for (let i=2;i<=9;i++){
+        sout = sout + "<tr>";
         for (let j=1;j<=9;j++){
-            document.write(i+' '+'x '+j+' = '+i*j+'<br>');
+            sout+= "<td>"+i+' '+'x '+j+' = '+i*j+"</td>";
         }
-    }
+        sout=sout+"</tr>";
+    }sout=sout+"</table>";
+    document.write(sout);
 </script>
 </body>
 </html>

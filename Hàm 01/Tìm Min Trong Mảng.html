@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let valueArr = parseInt(prompt('Nhập Giá Trị Của Mảng'));
+    let arr1 = new Array(valueArr);
+
+    for (let i = 0; i < valueArr; i++) {
+        arr1[i] = prompt('Nhập Phần Tử Thứ ' + (i + 1) + ' Của Mảng')
+    }
+    document.write('Mảng Ban Đầu: ' + arr1 + '<br>');
+
+    let min = minArray(arr1);
+    document.write('Giá Trị Nhỏ Nhất là: ' + min);
+
+
+    function minArray(arr) {
+        let min = arr[0];
+        for (let j = 0; j <= arr.length; j++) {
+            if (min >= arr[j]) {
+                min = arr[j];
+            }
+        }
+        return min;
+    }
+
+
+</script>
+</body>
+</html>

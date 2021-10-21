@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  function processConfirm(answer) {
+    let result = "";
+    if (answer) {
+      result = "Rất Tốt. Bạn Thật Là Can Đảm Nhưng Đó Chỉ Là Một Câu Hỏi Vui Thôi. Chúc Ban Một Ngày Vui Vẻ";
+    } else {
+      result = "Hẹn Bạn Vào Phi Vụ Sau Nếu Tôi Không Bị Bắt";
+    }
+    return result;
+  }
+
+  let confirmAnswer = confirm("Chúng Ta cướp Nhà Băng nhé");
+  let theAnswer = processConfirm(confirmAnswer);
+  alert(theAnswer);
+
+</script>
+</body>
+</html>

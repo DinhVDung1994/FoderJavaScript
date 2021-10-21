@@ -13,9 +13,14 @@
   document.write('Mảng Ban Đầu :'+arr+'<br>');
   let counts=0;
   for (let i=0;i<arr.length;i++){
-      if (arr[i]>=0&&arr[i]<=9&&arr[i]!=''){
+      // dùng hàm isNaN is not a number
+      if (isNaN(arr[i])===false){
           counts++;
       }
+        // duyệt bằng tay
+      // if (arr[i]>=0&&arr[i]<=9&&arr[i]!=''){
+      //     counts++;
+      // }
   }
   document.write('Mảng có '+counts+' Ký Tự là Ký Tự Số');
 </script>

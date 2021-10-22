@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hàm 02/Chuyên Đổi Met vs Feed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 3 Giai Thừa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 5 Maxofthreenumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tâp 02/Bài 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tập 01/Luyện Tập 01 Bài 03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tập 01/Luyện Tập 01 Bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tập 01/Luyện Tập 01 Bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tập 01/Luyện Tập 01 Bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 02/Luyện Tập 01/Luyện Tập 01 Bài 5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +64,7 @@
       <recent name="C:\Users\HaniPu\Desktop\HTMLJavaScript" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HaniPu\Desktop\HTMLJavaScript\Hàm 02\Luyện Tập 01" />
       <recent name="C:\Users\HaniPu\Desktop\HTMLJavaScript\Mang2\Luyện Tập 1" />
       <recent name="C:\Users\HaniPu\Desktop\HTMLJavaScript\Mang1" />
       <recent name="C:\Users\HaniPu\Desktop\HTMLJavaScript\Tuần 1 đến phần 9" />
@@ -97,7 +110,9 @@
       <workItem from="1634742285765" duration="4315000" />
       <workItem from="1634778523761" duration="829000" />
       <workItem from="1634779875115" duration="17432000" />
-      <workItem from="1634808050639" duration="2880000" />
+      <workItem from="1634808050639" duration="3012000" />
+      <workItem from="1634823429258" duration="7040000" />
+      <workItem from="1634864951927" duration="8179000" />
     </task>
     <servers />
   </component>

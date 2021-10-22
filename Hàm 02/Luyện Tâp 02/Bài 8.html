@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function DaoMang(){
+    let lengtharr=parseInt(prompt('Nạp số phần tử của mảng'));
+    let arr = new Array(lengtharr);
+    for (let i=0;i<lengtharr;i++){
+        arr[i]=prompt('Phần tử thứ '+(i+1));
+    }document.write(arr);
+
+    arr.reverse();
+
+    document.write('Mảng sau khi đảo: '+arr);
+    }
+DaoMang();
+</script>
+</body>
+</html>

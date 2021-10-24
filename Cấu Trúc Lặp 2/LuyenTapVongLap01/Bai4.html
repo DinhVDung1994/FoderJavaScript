@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num;
+    let num1=0;
+    let num2=1;
+    for (let i=1;i<100;i++){
+        num=num1+num2;
+        num1=num2;
+        num2=num;
+
+        if (num%5==0){
+            alert('Số Fibonaci đầu tiên trong dãy số chia hết cho 5 là '+num);
+            break;
+        }
+    }
+
+
+
+
+
+</script>
+</body>
+</html>

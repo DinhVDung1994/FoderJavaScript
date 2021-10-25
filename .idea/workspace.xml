@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a42fa58-d935-4de2-8d70-ef7664838732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/16.LâpTrinhHuongDoiTuong1/[Thực Hành]Buil-Class-Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyenTapVongLap01/Bài6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyeTapVongLap02/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyeTapVongLap02/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu Trúc Lặp 2/LuyeTapVongLap02/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang2/TicTacToe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestGiuaMD1/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestGiuaMD1/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestGiuaMD1/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestGiuaMD1/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestGiuaMD1/Bai5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.LâpTrinhHuongDoiTuong1/[Thực Hành]Buil-Class-Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/16.LâpTrinhHuongDoiTuong1/[Thực Hành]Buil-Class-Date.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,9 @@
       <workItem from="1634864951927" duration="8179000" />
       <workItem from="1634884571486" duration="2788000" />
       <workItem from="1635063110637" duration="4119000" />
-      <workItem from="1635085196231" duration="5971000" />
+      <workItem from="1635085196231" duration="10094000" />
+      <workItem from="1635095423705" duration="634000" />
+      <workItem from="1635124362836" duration="6482000" />
     </task>
     <servers />
   </component>

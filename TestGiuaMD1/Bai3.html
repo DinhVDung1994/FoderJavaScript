@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập năm sinh:<input type="text" id="txtBirthday">
+<button type="button" onclick="TinhTuoi()">Tính Tuổi</button>
+<script>
+
+        function TinhTuoi(){
+            let num = parseInt(document.getElementById('txtBirthday').value)
+        let date = new Date();
+            let today = date.getFullYear();
+
+            if (num>today){
+                alert('Năm Sinh không hợp lệ');
+            }else {
+                alert('Tuổi của ban là: '+(today-num));
+            }
+
+
+
+        }
+
+
+
+</script>
+
+</body>
+</html>

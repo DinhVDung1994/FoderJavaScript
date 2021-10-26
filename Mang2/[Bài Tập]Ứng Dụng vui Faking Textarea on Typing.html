@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Type anything slowly</h2>
+<textarea cols="40" rows="10" id="txttext" onkeydown="typeTextarea()"></textarea>
+<script>
+    let string =" TÔI LÀ ĐỒ NGỐC!!! "
+    let array = string.split("")
+
+    function typeTextarea(){
+        let text = document.getElementById('txttext').value
+        let value= ""
+        if (text.length>0){
+            for (let i=1;i<=text.length;i++){
+                value+= array[i];
+                if (i===array.length){
+                    document.getElementById('txttext').value="";
+                    value="";
+                }
+            }
+        }
+        document.getElementById('txttext').value=value;
+        setTimeout(typeTextarea,1);
+    }
+
+</script>
+</body>
+</html>

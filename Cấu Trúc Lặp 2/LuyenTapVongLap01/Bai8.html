@@ -9,7 +9,15 @@
 <script>
 
 function PlayGame(){
-    alert('Em Chưa Có ý Tưởng Viết Game này')
+    let khoangDoan=parseInt(prompt('Bạn Muốn Đoán Từ Khoảng Nào'))
+    alert('khoảng cách đoán số từ '+khoangDoan+' đến '+(khoangDoan+10))
+    let number = parseInt(prompt('Nhập số muốn đoán'))
+    let numberRamdom= khoangDoan+Math.round(Math.random()*10)
+    if (number===numberRamdom){
+        alert('Số Ngẫu Nhiên Là: '+numberRamdom+'. Chúc Mừng bạn đã đoán đúng')
+    }else {
+        alert('Bạn đã đoán sai.Số Ramdom là: '+numberRamdom)
+    }
 }
 
 </script>
